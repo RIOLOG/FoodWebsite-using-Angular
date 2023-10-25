@@ -1,0 +1,48 @@
+/* header.component.css */
+
+/* Header Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2196f3; /* Background color */
+    padding: 20px;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    font-family: 'Arial', sans-serif; /* Choose an appropriate font-family */
+    font-size: 30px;
+    color: #FFF; /* Text color */
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .logo:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navigation Styling */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  /* Link Styling */
+  nav a {
+    text-decoration: none;
+    color: #FFF; /* Link text color */
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ece9ea; /* Link text color on hover */
+  }
+  
